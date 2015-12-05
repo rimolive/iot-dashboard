@@ -1,0 +1,19 @@
+{
+  "name": "iot-dashboard",
+  "version": "0.0.0",
+  "authors": [
+    "Ricardo M. Oliveira <ricardo.martinelli.oliveira@gmail.com>"
+  ],
+  "main": "app.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "description": "",
+  "moduleType": [],
+  "homepage": ""
+}
