@@ -15,5 +15,8 @@
   ],
   "description": "",
   "moduleType": [],
-  "homepage": ""
+  "homepage": "",
+  "dependencies": {
+    "angular": "1.4.8"
+  }
 }
