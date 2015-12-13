@@ -3,9 +3,36 @@
   <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='vendor/bootstrap/dist/css/bootstrap.css' />
+    <link rel='stylesheet' href='vendor/bootstrap/dist/css/bootstrap-theme.css' />
+    <script language="javascript" src='vendor/jquery/dist/jquery.js'></script>
+    <script language="javascript" src='vendor/bootstrap/dist/js/bootstrap.js'></script>
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+		<div class="container-fluid">
+			<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="#">IoT-Dashboard</a>
+					</div>
+					<div class="collapse navbar-collapse" id="menu-1">
+						<ul class="nav navbar-nav">
+							<li><a href="#">Dashboard</a></li>
+							<li class="dropdown">
+								<a href="#"class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Testing <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Gateways</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div class="jumbotron">
+				<h1>Testing<h1>
+			</div>
+			<h1><%= title %></h1>
+			<p>Welcome to <%= title %></p>
+		</div>
   </body>
 </html>
