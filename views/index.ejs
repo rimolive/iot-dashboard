@@ -18,7 +18,7 @@
 					</div>
 					<div class="collapse navbar-collapse" id="menu-1">
 						<ul class="nav navbar-nav">
-							<li><a href="#">Dashboard</a></li>
+							<li><a ng-href="#/dashboard">Dashboard</a></li>
 							<li class="dropdown">
 								<a href="#"class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Testing <span class="caret"></span></a>
 								<ul class="dropdown-menu">
@@ -29,11 +29,11 @@
 					</div>
 				</div>
 			</nav>
-			<div class="jumbotron">
-				<h1>Testing<h1>
-			</div>
-			<h1><%= title %></h1>
-			<p>Welcome to <%= title %></p>
+			<div ng-view></div>
 		</div>
+    <script language="javascript" src='vendor/angular/angular.js'></script>
+    <script language="javascript" src='vendor/angular-route/angular-route.js'></script>
+    <script language="javascript" src='js/main.js'></script>
+    <script language="javascript" src='js/controllers.js'></script>
   </body>
 </html>
