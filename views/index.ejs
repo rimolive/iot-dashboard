@@ -8,10 +8,12 @@
     <link rel='stylesheet' href='vendor/bootstrap/dist/css/bootstrap-theme.css' />
     <script language="javascript" src='vendor/jquery/dist/jquery.js'></script>
     <script language="javascript" src='vendor/bootstrap/dist/js/bootstrap.js'></script>
+    <script language="javascript" src='vendor/d3/d3.js'></script>
+    <script language="javascript" src='js/gauge.js'></script>
   </head>
   <body>
 		<div class="container-fluid">
-			<nav class="navbar navbar-default navbar-fixed-top">
+			<nav class="navbar navbar-inverse navbar-fixed-top">
 				<div class="container-fluid">
 					<div class="navbar-header">
 						<a class="navbar-brand" href="#">IoT-Dashboard</a>
@@ -20,9 +22,10 @@
 						<ul class="nav navbar-nav">
 							<li><a ng-href="#/dashboard">Dashboard</a></li>
 							<li class="dropdown">
-								<a href="#"class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Testing <span class="caret"></span></a>
+								<a href="#"class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Configure<span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li><a href="#">Gateways</a></li>
+									<li><a ng-href="#/gateways">Gateways</a></li>
+									<li><a ng-href="#/alerts">Alerts</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -35,5 +38,6 @@
     <script language="javascript" src='vendor/angular-route/angular-route.js'></script>
     <script language="javascript" src='js/main.js'></script>
     <script language="javascript" src='js/controllers.js'></script>
+    <script language="javascript" src='js/dashboard-gauges.js'></script>
   </body>
 </html>

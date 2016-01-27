@@ -1,6 +1,16 @@
-controllers = angular.module('iot-dashboard', []);
+controllers = angular.module('iot-dashboard');
 
 controllers.controller('dashboardController',
-	function($scope) {
+function($scope) {
+
+});
+
+controllers.controller('gatewaysController',
+function($scope) {
+
+});
+
+controllers.controller('alertsController',
+function($scope) {
 
 });
